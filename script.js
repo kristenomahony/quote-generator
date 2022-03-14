@@ -5,6 +5,7 @@ const twitterBtn = document.getElementById("twitter");
 const newQuoteBtn = document.getElementById("new-quote");
 
 let apiQuotes = [];
+
 function newQuote() {
   // pick a random quote from api
   const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
